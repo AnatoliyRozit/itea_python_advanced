@@ -8,7 +8,6 @@ def my_logger(func):
         print(f'{func.__name__} was started at {start_time}')
 
         result = [func(*args) for _ in range(1000000)]
-        print(result)
 
         end_time = datetime.now()
 
@@ -25,3 +24,7 @@ def my_logger(func):
 @my_logger
 def my_sum(x, y):
     return x + y
+
+
+result = my_sum(5, 6)
+print(result)
