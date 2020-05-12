@@ -1,0 +1,44 @@
+[
+    {
+        "username": "user_one",
+        "password": "user_one",
+        "user_role": "user",
+        "registration_date": "2018-01-01",
+        "posts": [
+            {
+                "date": "2018-01-01",
+                "post_body": "Some text that user posted is present here"
+            },
+            {
+                "date": "2019-01-01",
+                "post_body": "This is another post that user made"
+            }
+        ]
+    },
+    {
+        "username": "admin",
+        "password": "admin",
+        "user_role": "admin",
+        "registration_date": "2000-01-01",
+        "posts": []
+    },
+    {
+        "username": "user_two",
+        "password": "user_two",
+        "user_role": "user",
+        "registration_date": "2016-01-01",
+        "posts": []
+    },
+    {
+        "username": "some",
+        "password": "some1234",
+        "user_role": "user",
+        "registration_date": "2020-05-12",
+        "posts": [
+            {
+                "date": "2020-05-12",
+                "post_body": "THis is a test post so it might have mistakes in it. Anyway, I am happy it was added in first place! :)"
+            }
+        ]
+    }
+]
