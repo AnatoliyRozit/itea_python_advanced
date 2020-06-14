@@ -7,9 +7,7 @@ class MyContextManager:
         return self.obj
 
     def __exit__(self, type, value, traceback):
-        print('Oops! Something Went Wrong. Check your entry and try again.')
         self.obj.close()
-        return True
 
 
 if __name__ == '__main__':

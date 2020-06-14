@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product</title>
+    <STYLE></STYLE>
+
+</head>
+<body>
+    <h1>In Stock items from selected category:</h1>
+    <p>
+    {% for product in products_list %}
+    <h4><a href="/product/{{product.product_id}}">{{product.name}}</a></h4>
+    {% endfor %}
+    </p>
+</body>
+</html>
